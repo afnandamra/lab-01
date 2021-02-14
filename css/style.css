@@ -1,0 +1,108 @@
+:root{
+    --aColor: #FFADAD;
+    --bColor: #FFD6A5;
+    --cColor: #FDFFB6;
+    --dColor: #CAFFBF;
+
+    --eColor: #A0C4FF;
+    --fColor: #BDB2FF;
+    --gColor: #9BF6FF;
+    --hColor: #FFC6FF;
+    --iColor: #FFFFFC;
+}
+body{
+    max-height: 100%;
+}
+main{
+    height: 100%;
+}
+p {
+    text-align: center;
+}
+header div {
+    background-color: var(--aColor);
+    width: 480px;
+    height: 75px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 767px;
+}
+header div p{
+    line-height: 75px;
+}
+aside {
+    background-color: var(--bColor);
+    width: 480px;
+    height: 150px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 767px;
+}
+aside p {
+    line-height: 150px;
+}
+#c{
+    background-color: var(--cColor);
+    width: 480px;
+    height: 125px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 767px;
+}
+#c p, #d p{
+    line-height: 125px;
+}
+#d{
+    background-color: var(--dColor);
+    width: 480px;
+    height: 125px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 767px;
+}
+#e{
+    background-color: var(--eColor);
+    width: 240px;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    min-width: 50%;
+}
+#f{
+    background-color: var(--fColor);
+    width: 240px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+    min-width: 50%;
+}
+#e , #f, #g, #h{
+    line-height: 250px;
+}
+#g{
+    background-color: var(--gColor);
+    width: 240px;
+    height: 250px;
+    box-sizing: border-box;
+    float: left;
+    min-width: 50%;
+}
+#h{
+    background-color: var(--hColor);
+    width: 240px;
+    height: 250px;
+    box-sizing: border-box;
+    float: right;
+    min-width: 50%;
+}
+footer div {
+    background-color: var(--iColor);
+    width: 480px;
+    height: 80px;
+    box-sizing: border-box;
+    min-width: 100%;
+    max-width: 767px;
+}
+footer div p{
+    line-height: 80px;
+}
