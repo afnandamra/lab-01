@@ -1,6 +1,7 @@
 # LAB - 01
 
 ## SMACSS and Responsive Web Design
+this website is about creating a RWD using floats wihout grids or flexboxes.
 
 ### Author: Afnan Damra
 
@@ -9,5 +10,4 @@
 * 
 
 ### Reflections and Comments
-* Consider including the answers to your daily journal and submission questions here
-* This is also a good place to reflect on the tools and resources used and learned
+* 

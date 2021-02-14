@@ -1,0 +1,16 @@
+@import url(reset.css);
+
+:root{
+    --aColor: #FFADAD;
+    --bColor: #FFD6A5;
+    --cColor: #FDFFB6;
+    --dColor: #CAFFBF;
+    --eColor: #A0C4FF;
+    --fColor: #BDB2FF;
+    --gColor: #9BF6FF;
+    --hColor: #FFC6FF;
+    --iColor: #f3ffc8;
+}
+p {
+    text-align: center;
+}
