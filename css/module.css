@@ -72,6 +72,9 @@ footer div p{
     header div p {
         line-height: 80px;
     }
+    aside p{
+        line-height: 600px;
+    }
     #c, #ef{
         width: 50%;
         height: 200px;
