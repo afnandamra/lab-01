@@ -11,6 +11,16 @@
     --hColor: #FFC6FF;
     --iColor: #f3ffc8;
 }
+* {
+    box-sizing: border-box;
+}
 p {
     text-align: center;
+}
+
+@media (min-width: 768px){
+    body{
+        max-width: 960px;
+        margin: auto;
+    }
 }
