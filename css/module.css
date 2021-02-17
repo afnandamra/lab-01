@@ -1,84 +1,147 @@
+#a{
+    background-color: var(--aColor);
+    height: 75px ;
+    grid-column: 1/-1;
+    line-height: 75px;
+}
+#b{
+    background-color: var(--bColor);
+    grid-column: 1/-1;
+    height: 150px;
+    line-height: 150px;
+}
 #c{
     background-color: var(--cColor);
-    width: 480px;
+    grid-column: 1/-1;
     height: 125px;
-    box-sizing: border-box;
-    min-width: 100%;
-}
-#c, #d{
     line-height: 125px;
 }
 #d{
     background-color: var(--dColor);
-    width: 480px;
+    grid-column: 1/-1;
     height: 125px;
-    box-sizing: border-box;
-    min-width: 100%;
+    line-height: 125px;
 }
 #ef, #gh{
-    width: 480px;
-    min-width: 100%;
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 #e{
     background-color: var(--eColor);
-    width: 240px;
+    /* grid-column: 1/2; */
     height: 250px;
-    box-sizing: border-box;
-    float: left;
-    min-width: 50%;
+    line-height: 250px;
 }
 #f{
     background-color: var(--fColor);
-    width: 240px;
+    /* grid-column: -2/-1; */
     height: 250px;
-    box-sizing: border-box;
-    float: right;
-    min-width: 50%;
+    line-height: 250px;
 }
 #g{
     background-color: var(--gColor);
-    width: 240px;
+    grid-column: 1/2;
     height: 250px;
-    box-sizing: border-box;
-    float: left;
-    min-width: 50%;
+    line-height: 250px;
 }
 #h{
     background-color: var(--hColor);
-    width: 240px;
+    grid-column: -2/-1;
     height: 250px;
-    box-sizing: border-box;
-    float: right;
-    min-width: 50%;
-}
-#e , #f, #g, #h{
     line-height: 250px;
 }
-.clear{
-    clear:both;
+#i {
+    background-color: var(--iColor);
+    grid-column: 1/-1;
+    height: 80px;
+    line-height: 80px;
 }
 
-/* and (max-width:960px) */
-@media (min-width: 768px){
-    #c, #ef{
-        width: 50%;
-        height: 200px;
-        float: left;
-        min-width: 50%;
+@media screen and (min-width:480px) and (max-width:767px){
+
+    #a{
+        grid-column: 1/-1;
+        height: 100px;
+        line-height: 100px;
     }
-    #d, #gh{
-        width: 50%;
-        height: 200px;
-        float: right;
-        min-width: 50%;
+    #b{
+        grid-column: 1/2;
+        width: 200px;
+        height: 100%;
+        line-height: 780px;
     }
-    #c, #d{
+    #c{
+        grid-column: 1/-1;
+        height: 150px;
+        line-height: 150px;
+    }
+    #d{
+        grid-column: 1/-1;
+        height: 150px;
+        line-height: 150px;
+    }
+    #ef{
+        grid-column: 1/-1;
+        height: 200px;
+        line-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #gh{
+        grid-column: 1/-1;
+        height: 200px;
+        line-height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #i{
+        grid-column: 1/-1;
+        height: 80px;
+        line-height: 80px;
+    }
+}
+
+@media screen and (min-width:768px){
+
+    #a{
+        grid-column: 1/-1;
+        height: 100px;
+        line-height: 100px;
+    }
+    #b{
+        grid-column: 1/2;
+        width: 200px;
+        height: 600px;
+        line-height: 600px;
+    }
+    #c{
+        grid-column: 1/2;
+        height: 200px;
         line-height: 200px;
     }
-    #e, #f, #g, #h{
-        width:50%;
+    #d{
+        grid-column: 2/-1;
+        height: 200px;
+        line-height: 200px;
     }
-    .clear{
-        clear: none;
+    #ef{
+        grid-column: 1/2;
+        height: 250px;
+        line-height: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #gh{
+        grid-column: 2/-1;
+        height: 250px;
+        line-height: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    #i{
+        grid-column: 1/-1;
+        height: 150px;
+        line-height: 150px;
     }
 }
