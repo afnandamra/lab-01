@@ -16,9 +16,25 @@
     text-align: center;
 }
 
-@media (min-width: 768px){
+body{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (min-width:480px) and (max-width:767px){
+    body{
+        display: grid;
+        grid-template-columns: 1fr 150px 3fr;
+        grid-template-rows: 100px 780px;
+    }
+}
+
+@media screen and (min-width:768px){
     body{
         max-width: 960px;
         margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 200px 4fr;
+        grid-template-rows: 100px 600px;
     }
 }
